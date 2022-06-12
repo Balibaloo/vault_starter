@@ -1,0 +1,10 @@
+body .markdown-preview-view h1,
+body .markdown-preview-view h2 {
+  border-bottom: 0;
+}
+
+body .markdown-preview-view h1,
+body .markdown-preview-view h2 {
+  border-top: 1px solid var(--background-secondary-alt);
+
+}

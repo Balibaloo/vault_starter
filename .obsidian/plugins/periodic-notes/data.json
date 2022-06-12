@@ -1,0 +1,35 @@
+{
+  "showGettingStartedBanner": false,
+  "hasMigratedDailyNoteSettings": false,
+  "hasMigratedWeeklyNoteSettings": false,
+  "daily": {
+    "format": "",
+    "template": "🗃 resources/⚙ system config/templates/daily template.md",
+    "folder": "🗃 resources/🗄 logs/⌛ periodic/daily",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "YYYY-[W]ww",
+    "template": "🗃 resources/⚙ system config/templates/weekly Template.md",
+    "folder": "🗃 resources/🗄 logs/⌛ periodic/weekly",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "",
+    "template": "🗃 resources/⚙ system config/templates/monthly template.md",
+    "folder": "🗃 resources/🗄 logs/⌛ periodic/monthly",
+    "enabled": true
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": "🗃 resources/🗄 logs/⌛ periodic/quarterly",
+    "enabled": true
+  },
+  "yearly": {
+    "format": "",
+    "template": "🗃 resources/⚙ system config/templates/yearly template.md",
+    "folder": "🗃 resources/🗄 logs/⌛ periodic/yearly",
+    "enabled": true
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "viewTypes": [
+    "markdown",
+    "pdf"
+  ],
+  "onlyRootLeaves": true
+}

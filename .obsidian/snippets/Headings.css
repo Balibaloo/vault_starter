@@ -1,0 +1,64 @@
+/* .markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  margin: 0 0 15px 0;
+}
+
+.markdown-embed .markdown-preview-view .markdown-preview-pusher + .markdown-preview-section h1,
+.markdown-embed .markdown-preview-view .markdown-preview-pusher + .markdown-preview-section h2,
+.markdown-embed .markdown-preview-view .markdown-preview-pusher + .markdown-preview-section h3,
+.markdown-embed .markdown-preview-view .markdown-preview-pusher + .markdown-preview-section h4,
+.markdown-embed .markdown-preview-view .markdown-preview-pusher + .markdown-preview-section h5,
+.markdown-embed .markdown-preview-view .markdown-preview-pusher + .markdown-preview-section h6 {
+  margin: 0 0 15px 0;
+} */
+
+.markdown-preview-view h1 {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+
+.markdown-preview-view h2 {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.markdown-preview-view h3 {
+  font-size: large;
+  font-weight: bold;
+}
+
+.markdown-preview-view h4 {
+  font-size: large;
+  font-weight: bold;
+}
+
+
+.cm-header.cm-header-1 {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+
+.cm-header.cm-header-2 {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.cm-header.cm-header-3 {
+  font-size: large;
+  font-weight: bold;
+}
+
+.cm-header.cm-header-4 {
+  font-size: large;
+  font-weight: bold;
+}
+
+/* p {
+  margin-block-start: 0;
+} */

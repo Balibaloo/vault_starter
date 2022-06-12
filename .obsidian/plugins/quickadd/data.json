@@ -1,0 +1,546 @@
+{
+  "choices": [
+    {
+      "id": "1ca661a6-940a-446d-88a7-f5d7292495dd",
+      "name": "🖋 day journal",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "🗃 resources/🗄 logs/🖋 journaling/daily/{{DATE}}-journal.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "\n---\n{{VALUE:Daily Journal}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "223818a8-9d0d-4280-8d43-0ccba1664ae1",
+      "name": "🖋 write",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "8ced0070-aab5-499b-a6cb-1cac95968027",
+          "name": "📝 dream",
+          "type": "Macro",
+          "command": false,
+          "macroId": "24e22cb0-f2c6-42c0-92e8-abc482f34c37"
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "004cad44-e7b1-4c86-9d47-e33efb598fd4",
+      "name": "🏗 new project",
+      "type": "Macro",
+      "command": false,
+      "macroId": "c6c0edf0-8237-4c08-8d5d-93732cf0597b"
+    },
+    {
+      "id": "ba10c59d-9bc1-4909-9644-fc44afb274b4",
+      "name": "✔ project task",
+      "type": "Macro",
+      "command": false,
+      "macroId": "a7374735-fca7-49ac-bb01-e3d23d3a10ae"
+    },
+    {
+      "id": "7e2bde3c-eabc-46b5-ba6c-15b6d51105ec",
+      "name": "🌠 source note",
+      "type": "Macro",
+      "command": false,
+      "macroId": "835babc0-0d99-453f-a40f-114c14c56dfb"
+    },
+    {
+      "id": "d57e0a68-0588-4e76-aeb4-18436057f058",
+      "name": "🪐 concept note",
+      "type": "Macro",
+      "command": false,
+      "macroId": "674eabee-1908-43e2-b209-273370ec0b58"
+    },
+    {
+      "id": "95cd07d1-1706-4733-9504-3334c2f12396",
+      "name": "⛰️ system use case change",
+      "type": "Macro",
+      "command": false,
+      "macroId": "73c36df4-d504-43b9-82aa-27e5bcfdf8e9"
+    },
+    {
+      "id": "3d427967-dc70-4f0a-bf66-0107010ad357",
+      "name": "🏗️ open a project",
+      "type": "Macro",
+      "command": false,
+      "macroId": "131c80b0-63a9-4e43-86ee-130017c06bde"
+    },
+    {
+      "id": "851e9048-9567-47cb-acd1-79de0c634e46",
+      "name": "✔ graded project task",
+      "type": "Macro",
+      "command": false,
+      "macroId": "5dca89b8-f7ff-4a73-8d2a-4afe5434b187"
+    },
+    {
+      "id": "f4e025d2-6224-4ec8-aef5-0b5b4c92c521",
+      "name": "☁️ Event for file",
+      "type": "Macro",
+      "command": false,
+      "macroId": "6bbbf2c3-5ca7-44b7-b30a-bb21f2914286"
+    },
+    {
+      "id": "d9dd30f2-33a4-4e5c-aa2a-672196feef46",
+      "name": "🗄 Daily Log Task",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "🗃 resources/🗄 logs/⌛ periodic/daily/{{DATE}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": false,
+        "format": ""
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## log",
+        "insertAtEnd": true,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "a8f0c4be-e37a-4e93-a626-a961e6405253",
+      "name": "Log activity since last event",
+      "type": "Macro",
+      "command": false,
+      "macroId": "19e915b7-f7d4-47c5-989d-946c7662e103"
+    },
+    {
+      "id": "0673fda1-f0bd-45c3-82de-2a7e1eb44085",
+      "name": "Util",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "e170f15b-50e2-45e5-a958-dbc3b5725eca",
+          "name": "create weekly tasks",
+          "type": "Macro",
+          "command": false,
+          "macroId": "2896597e-cc5c-4397-9d8e-f2d5a9b88143"
+        },
+        {
+          "id": "53c534bb-ea78-46df-bb7c-6fef78fea6e7",
+          "name": "📅 Google Calendar",
+          "type": "Multi",
+          "command": false,
+          "choices": [
+            {
+              "id": "bb9648f5-32eb-4327-a1e8-029aa1f8e0f8",
+              "name": "Open current event files",
+              "type": "Macro",
+              "command": true,
+              "macroId": "69443d0a-6f1d-43af-9624-2f9203f7d152"
+            },
+            {
+              "id": "12c22119-eed6-4fae-b950-cd413fa730c8",
+              "name": "Events for outstanding tasks",
+              "type": "Macro",
+              "command": false,
+              "macroId": "a09d9a40-6971-4bde-a8b0-b0feb660de96"
+            }
+          ],
+          "collapsed": false
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "1493942d-4877-4f8e-9a24-6c24c70e7895",
+      "name": "🍽️ recipe",
+      "type": "Template",
+      "command": false,
+      "templatePath": "🗃 resources/⚙ system config/templates/recipe template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "🗃 resources/🗒 runbooks/🍽️ recipes"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "source"
+    },
+    {
+      "id": "a36827ac-c125-4a74-846c-dfce9489d0b8",
+      "name": "Cycle file status",
+      "type": "Macro",
+      "command": false,
+      "macroId": "90fba996-e617-451c-9638-7643727289e3"
+    }
+  ],
+  "macros": [
+    {
+      "name": "new project",
+      "id": "c6c0edf0-8237-4c08-8d5d-93732cf0597b",
+      "commands": [
+        {
+          "name": "new_project",
+          "type": "UserScript",
+          "id": "d3b0aa38-0340-4997-a05b-d4191cf8d48f",
+          "path": "🗃 resources/⚙ system config/scripts/new_project.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "new project task",
+      "id": "a7374735-fca7-49ac-bb01-e3d23d3a10ae",
+      "commands": [
+        {
+          "name": "new_project_task",
+          "type": "UserScript",
+          "id": "e32f98bb-8da0-4c13-83fe-526a9f335841",
+          "path": "🗃 resources/⚙ system config/scripts/new_project_task.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "journal",
+      "id": "4c6ffeb6-eab4-4547-b6d5-84349f60b400",
+      "commands": [],
+      "runOnStartup": false
+    },
+    {
+      "name": "source note",
+      "id": "835babc0-0d99-453f-a40f-114c14c56dfb",
+      "commands": [
+        {
+          "name": "source name",
+          "type": "NestedChoice",
+          "id": "5ed51aa0-627c-4212-9a22-a459cbdeb4a2",
+          "choice": {
+            "id": "d475e178-b343-446c-be80-9c9f5fc1c7a9",
+            "name": "source name",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "🕸 areas of responsibility/📫 inbox/{{VALUE}}",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": true,
+              "createWithTemplate": true,
+              "template": "🗃 resources/⚙ system config/templates/note source template.md"
+            },
+            "format": {
+              "enabled": true,
+              "format": ""
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "concept note",
+      "id": "674eabee-1908-43e2-b209-273370ec0b58",
+      "commands": [
+        {
+          "name": "concept name",
+          "type": "NestedChoice",
+          "id": "513edf88-2dd2-4975-a828-87519b202682",
+          "choice": {
+            "id": "78ebde9e-7c0e-4350-908f-fe5f9705d6fc",
+            "name": "concept name",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "🕸 areas of responsibility/📫 inbox/{{VALUE}}",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": true,
+              "createWithTemplate": true,
+              "template": "🗃 resources/⚙ system config/templates/note concept template.md"
+            },
+            "format": {
+              "enabled": true,
+              "format": ""
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "idea",
+      "id": "1033c6a1-a1dc-4e09-b641-ba680db64574",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "8f79eae4-aa4e-4216-9ad2-7d7961d10511",
+          "choice": {
+            "id": "7504e5f6-9b5e-483d-ad10-82af0e55bab0",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "🗃 resources/💡 ideas/{{VALUE}}",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": true,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "---\ntags:\n- \n---"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "system feature",
+      "id": "73c36df4-d504-43b9-82aa-27e5bcfdf8e9",
+      "commands": [
+        {
+          "name": "new_system_feature",
+          "type": "UserScript",
+          "id": "04384d69-1d04-4f35-8b06-3bfb65942eb8",
+          "path": "🗃 resources/⚙ system config/scripts/new_system_feature.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "open a project",
+      "id": "131c80b0-63a9-4e43-86ee-130017c06bde",
+      "commands": [
+        {
+          "name": "open_a_project",
+          "type": "UserScript",
+          "id": "f02a6637-1d9c-4b39-a83c-fb96eeb425c4",
+          "path": "🗃 resources/⚙ system config/scripts/open_a_project.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "graded project task",
+      "id": "5dca89b8-f7ff-4a73-8d2a-4afe5434b187",
+      "commands": [
+        {
+          "name": "new_project_task_graded",
+          "type": "UserScript",
+          "id": "265fdc57-25fb-4a5c-8ae3-35dd50a779f7",
+          "path": "🗃 resources/⚙ system config/scripts/new_project_task_graded.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "create event for file",
+      "id": "6bbbf2c3-5ca7-44b7-b30a-bb21f2914286",
+      "commands": [
+        {
+          "name": "gcal_event_for_file",
+          "type": "UserScript",
+          "id": "ce85e75d-e3c9-446a-94dd-79ff3b29eb22",
+          "path": "🗃 resources/⚙ system config/scripts/gcal_event_for_file.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "create all outstanding event tasks",
+      "id": "a09d9a40-6971-4bde-a8b0-b0feb660de96",
+      "commands": [
+        {
+          "name": "gcal_events_for_outstanding_events",
+          "type": "UserScript",
+          "id": "9f08039a-ba8b-4b80-96a2-297e69182d34",
+          "path": "🗃 resources/⚙ system config/scripts/gcal_events_for_outstanding_events.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "dream",
+      "id": "24e22cb0-f2c6-42c0-92e8-abc482f34c37",
+      "commands": [
+        {
+          "name": "dream",
+          "type": "UserScript",
+          "id": "fc8e58c9-d822-4c84-897f-9c18e6d680c4",
+          "path": "🗃 resources/⚙ system config/scripts/dream.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "open current event files",
+      "id": "69443d0a-6f1d-43af-9624-2f9203f7d152",
+      "commands": [
+        {
+          "name": "gcal_open_current_event_notes",
+          "type": "UserScript",
+          "id": "974b51f9-b56d-4328-a267-47e06b541d3d",
+          "path": "🗃 resources/⚙ system config/scripts/gcal_open_current_event_notes.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "log activity",
+      "id": "19e915b7-f7d4-47c5-989d-946c7662e103",
+      "commands": [
+        {
+          "name": "log_activity_since_last_event_end",
+          "type": "UserScript",
+          "id": "7771fa26-82fb-4004-be62-4797e5a8864a",
+          "path": "🗃 resources/⚙ system config/scripts/log_activity_since_last_event_end.js",
+          "settings": {}
+        },
+        {
+          "name": "🗄 Daily Log Task",
+          "type": "Choice",
+          "id": "1384b604-a206-4048-a549-6010b2831b03",
+          "choiceId": "d9dd30f2-33a4-4e5c-aa2a-672196feef46"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "create weekly tasks",
+      "id": "2896597e-cc5c-4397-9d8e-f2d5a9b88143",
+      "commands": [
+        {
+          "name": "create_weekly_tasks",
+          "type": "UserScript",
+          "id": "02954b41-b6cc-4ff5-8ffe-4c45ceb2b9d3",
+          "path": "🗃 resources/⚙ system config/scripts/create_weekly_tasks.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "cycle file status",
+      "id": "90fba996-e617-451c-9638-7643727289e3",
+      "commands": [
+        {
+          "name": "cycle_file_status",
+          "type": "UserScript",
+          "id": "760a46be-d464-4798-a61b-f0149a7c2a5b",
+          "path": "🗃 resources/⚙ system config/scripts/cycle_file_status.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "multi-line"
+}

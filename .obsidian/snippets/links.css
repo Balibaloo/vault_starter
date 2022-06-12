@@ -1,0 +1,21 @@
+[data-link-tags~="#🪐/🍃"],
+[data-link-tags~="#🌠/🍃"] {
+  color: grey;
+}
+
+[data-link-tags~="#🪐/🌱"],
+[data-link-tags~="#🌠/🌱"] {
+  color: grey;
+  text-decoration: underline dashed grey;
+  text-underline-position: under;
+}
+
+[data-link-tags~="#🪐/🌲"],
+[data-link-tags~="#🌠/🌲"] {
+  text-decoration: underline dashed grey;
+  text-underline-position: under;
+}
+[data-link-tags~="#🪐/⛺"],
+[data-link-tags~="#🌠/⛺"] {
+  text-decoration: none;
+}

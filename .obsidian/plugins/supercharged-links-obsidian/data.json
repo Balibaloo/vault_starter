@@ -1,0 +1,28 @@
+{
+  "targetAttributes": [
+    "source-status",
+    "change-status"
+  ],
+  "targetTags": true,
+  "presetFields": [
+    {
+      "name": "change-status",
+      "values": {
+        "1": "⚪",
+        "2": "🟢",
+        "3": "⚫"
+      },
+      "id": "2",
+      "isCycle": true,
+      "isMulti": false,
+      "valuesListNotePath": ""
+    }
+  ],
+  "displayFieldsInContextMenu": true,
+  "globallyIgnoredFields": [],
+  "classFilesPath": "",
+  "getFromInlineField": false,
+  "enableEditor": true,
+  "enableFileList": true,
+  "enableBacklinks": true
+}

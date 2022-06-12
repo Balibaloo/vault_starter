@@ -1,0 +1,10 @@
+.markdown-embed-title,
+.markdown-preview-pusher{
+  display: none;
+}
+
+
+.markdown-embed .markdown-embed-content .markdown-preview-view{
+  padding: 0;
+  margin:0;
+} 

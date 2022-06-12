@@ -1,0 +1,5 @@
+.cm-strong,
+strong {
+  font-size: calc(var(--font-adaptive-normal) + 1.5px);
+  font-family: "sans forgetica";
+}

@@ -1,0 +1,50 @@
+
+/* .titlebar-button.mod-active{
+  display: none;
+} */
+
+a.view-action,
+div.side-dock-ribbon-action[aria-label="Advanced Tables Toolbar"],
+div.side-dock-ribbon-action[aria-label="Templater"],
+div.side-dock-ribbon-action[aria-label="New Excalidraw drawing"],
+div.side-dock-ribbon-action[aria-label="Open quick switcher"],
+div.side-dock-ribbon-action[aria-label="Open graph view"],
+div.side-dock-ribbon-action[aria-label="Open quick switcher"],
+div.side-dock-ribbon-action[aria-label="Open today's daily note"],
+div.side-dock-ribbon-action[aria-label="Open command palette"],
+div.side-dock-ribbon-action[aria-label="Open Markdown importer"],
+div.side-dock-ribbon-action[aria-label="Help"],
+div.side-dock-ribbon-action[aria-label="Settings"],
+div.side-dock-ribbon-action[aria-label="Workbench"],
+div.side-dock-ribbon-action[aria-label="Start pomodoro"],
+div.side-dock-ribbon-action[aria-label="Manage workspaces"],
+div.side-dock-ribbon-action[aria-label="Open today"]
+{
+  display: none;
+}
+
+a.mod-close-leaf{
+  display: block;
+}
+
+.side-dock-settings {
+  margin-bottom: 0;
+}
+
+
+div.side-dock-ribbon-action[aria-label="Open random note"]::after{
+  font-size: 22px;
+  content: "💡";
+  display:block;
+  margin-top: 10px;
+}
+div.side-dock-ribbon-action[aria-label="Open random note"]>svg{
+  display:none;
+}
+
+
+
+/* tried to hide space after headings */
+/* div:has(pre.HyperMD-header) + div{
+  display: none;
+} */

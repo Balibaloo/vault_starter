@@ -1,0 +1,1 @@
+ <% tp.user.task_complete_timestamp(tp) %>

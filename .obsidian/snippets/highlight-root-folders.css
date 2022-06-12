@@ -1,0 +1,27 @@
+.mod-root > .nav-folder-children > .nav-folder:nth-of-type(2){
+  border-width: 3px 3px 0px 3px;
+  border-style: solid;
+  border-image: linear-gradient(to right, tomato ,var(--background-primary-alt) 70%, dimgrey 80%) 1;  
+}
+
+.mod-root > .nav-folder-children > .nav-folder:nth-of-type(3){
+  border-width: 3px 3px 0px 3px;
+  border-style: solid;
+  border-image: linear-gradient(to right, yellowgreen ,var(--background-primary-alt) 70%, dimgrey 80%) 1;  
+}
+
+.mod-root > .nav-folder-children > .nav-folder:nth-of-type(4){
+  border-width: 3px 3px 0px 3px;
+  border-style: solid;
+  border-image: linear-gradient(to right, royalblue ,var(--background-primary-alt) 70%, dimgrey 80%) 1;  
+}
+
+.mod-root > .nav-folder-children > .nav-folder:nth-of-type(5){
+  border-width: 3px 3px 0px 3px;
+  border-style: solid;
+  border-image: linear-gradient(to right, black ,var(--background-primary-alt) 70%, dimgrey 80%) 1;  
+}
+/* background-color: brown; */
+/* border-color:white; 
+border-width: 1px 3px 1px 3px;
+border-style: solid; */

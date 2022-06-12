@@ -1,0 +1,14 @@
+.popover.hover-popover {
+  transform: scale(0.8); /* makes the content smaller */
+  max-height: 1000px; /* was 300 */
+  min-height: 100px;
+  width: 600px; /* was 400 */
+}
+
+.markdown-embed-content.node-insert-event.markdown-embed-page {
+  max-height: 1069px;
+}
+
+.popover.hover-popover .markdown-embed{
+  height: 1069px;
+}

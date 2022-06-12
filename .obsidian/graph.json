@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "-path:\"people\" -file:\"wisdom\" -path:\"🗃 resources/⚙ system config\" -file:\".excalidraw\" ",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "file:🏗",
+      "color": {
+        "a": 1,
+        "rgb": 13369344
+      }
+    },
+    {
+      "query": "path:\"🗃 resources/🗄 logs/⌛ periodic/daily\"",
+      "color": {
+        "a": 1,
+        "rgb": 16772608
+      }
+    },
+    {
+      "query": "path:\"🗃 resources/🗄 logs/⌛ periodic/weekly\"",
+      "color": {
+        "a": 1,
+        "rgb": 13414656
+      }
+    },
+    {
+      "query": "path:\"🗃 resources/🌐 wiki\"",
+      "color": {
+        "a": 1,
+        "rgb": 1691366
+      }
+    },
+    {
+      "query": "path:\"🕸 areas of responsibility/⚛ self discovery\"",
+      "color": {
+        "a": 1,
+        "rgb": 9903866
+      }
+    },
+    {
+      "query": "path:\"🕸 areas of responsibility/📫 inbox\"",
+      "color": {
+        "a": 1,
+        "rgb": 3992671
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 1.25238768115942,
+  "lineSizeMultiplier": 1.13367731692796,
+  "collapse-forces": false,
+  "centerStrength": 0.151629363330627,
+  "repelStrength": 8.28338956142092,
+  "linkStrength": 0.563550968340485,
+  "linkDistance": 30,
+  "scale": 0.12693384402882413,
+  "close": true
+}

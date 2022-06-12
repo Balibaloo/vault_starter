@@ -1,0 +1,66 @@
+@font-face {
+  font-family: krona-one;
+  src: url('C:\\Users\\roman\\Documents\\_School docs\\Uni Notes\\.obsidian\\snippets');
+}
+
+.theme-dark{
+  
+  --background-secondary: #2e2e2e;
+
+  --font-color-text-normal: #d6d1d1;
+
+  --font-family: krona-one ,Avenir, Avenir Next, sans-serif;
+
+  --background-modifier-border: #5d5d5d;
+
+  --interface-color-background:         #838282; /* Icons Inactive*/
+  --interface-color-background-alt:     #83838302; /* Outside Panes Background */
+  
+  --interface-color-foreground:         #1a1a1a; /* Panes Foreground */
+  --interface-color-foreground-alt:     #cacaca; /* Panes title text and active icons */
+  --interface-color-border:             #1a1a1a; /* Title bars and border*/
+
+  --interface-color-cross:              #d61e1e; /* Window Close Button*/
+  --interface-color-three-dots:         #3bd418; /* Window Context Menu Button */
+  --interface-color-pencil:             #eaa100; /* Window Preview Button*/
+  
+  /* --interface-color-action:             var(--interface-color-foreground-alt); */
+  /* --interface-color-pin:                var(--interface-color-foreground-alt); */
+  /* --interface-color-icon:               var(--font-color-text-normal); */
+  
+  /* --scrollbar-bg:                       none; */
+  /* --scrollbar-thumb-bg:                 var(--interface-color-foreground); */
+  /* --scrollbar-active-thumb-bg:          #3c3836; */
+  
+  /* --font-color-text-normal:             #232323; */
+  /* --font-family:                        Avenir, Avenir Next, sans-serif; */
+  --font-line-height:                   25px;
+  /* --font-line-height-side:              17px; */
+  /* --font-size:                          14.5px; */
+  /* --font-size-side:                     12.5px; */
+  /* --font-size-header-titles:            13.5px; */
+
+  --font-size-h1:                       30px;
+  --font-size-h2:                       27px;
+  --font-size-h3:                       21px;
+  --font-size-h4:                       15px;
+  --font-size-h5:                       19px;
+  --font-size-h6:                       18px;
+  /* --font-a:                             #fad334; fad334 #D06069 */
+  
+  /* --font-a-hover:                       #ffefba; ffefba #f3a2a9 */
+  /* --font-code:                          var(--font-color-text-normal); */
+  /* --font-code-back:                     #c1c1c1; */
+  /* --font-selection:                     rgba(207, 217, 222, 0.70); */
+  /* --text-highlight-bg:                  rgba(207, 217, 222, 0.70); */
+  
+  --font-weight-normal:                 40;
+} 
+
+.suggestion-item.is-selected {
+  background-color: #2a2a2a;
+}
+
+.nav-file-title.is-active {
+  background-color: var(--background-secondary);
+}

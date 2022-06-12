@@ -1,0 +1,42 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "🗃 resources/⚙ system config/templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "🗃 resources/⚙ system config/scripts",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "🗃 resources/🗄 logs/⌛ periodic/daily",
+      "template": "🗃 resources/⚙ system config/templates/daily template.md"
+    },
+    {
+      "folder": "🗃 resources/🗄 logs/⌛ periodic/weekly",
+      "template": "🗃 resources/⚙ system config/templates/weekly Template.md"
+    },
+    {
+      "folder": "🗃 resources/🗄 logs/⌛ periodic/monthly",
+      "template": "🗃 resources/⚙ system config/templates/monthly template.md"
+    },
+    {
+      "folder": "🗃 resources/🗄 logs/⌛ periodic/yearly",
+      "template": "🗃 resources/⚙ system config/templates/yearly template.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "enabled_templates_hotkeys": [
+    "🗃 resources/⚙ system config/templates/timestamp.md"
+  ],
+  "startup_templates": [
+    "🗃 resources/⚙ system config/templates/startup template.md",
+    ""
+  ]
+}

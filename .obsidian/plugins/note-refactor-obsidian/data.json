@@ -1,0 +1,11 @@
+{
+  "includeFirstLineAsNoteHeading": false,
+  "excludeFirstLineInNote": false,
+  "headingFormat": "#",
+  "newFileLocation": 2,
+  "customFolder": "🕸 areas of responsibility/📫 inbox/",
+  "fileNamePrefix": "",
+  "transcludeByDefault": true,
+  "noteLinkTemplate": "see also: {{new_note_link}}",
+  "refactoredNoteTemplate": "<% tp.file.include(\"[[note concept template]]\") %>\n\n{{new_note_content}}\n\nExtracted from {{link}}"
+}

@@ -1,0 +1,12 @@
+{
+  "obsidian-prism-theme@@color-accent-dt": "#D77945",
+  "obsidian-prism-theme@@dark-accent-color-preset": "pt-dark-accent-color-grey",
+  "obsidian-prism-theme@@light-accent-color-preset": "pt-light-accent-color-aqua",
+  "obsidian-prism-theme@@background-blur-dt": 0,
+  "typomagical-text@@ligatures": "no-ligatures",
+  "typomagical-text@@heading-weight": "headings-bold",
+  "typomagical-colour@@theme-variant": "obsidian",
+  "minimal-style@@accent": "#E5B976",
+  "minimal-style@@base": "#E2E1E1",
+  "minimal-style@@h4-weight": 600
+}

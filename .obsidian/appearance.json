@@ -1,0 +1,20 @@
+{
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "bold-font-size",
+    "embed-styling-aliases",
+    "font-size-on-zoom",
+    "heading-border-top",
+    "hider-menu",
+    "hider-ribbon",
+    "highlight-root-folders",
+    "larger-preview",
+    "link-capitalisation",
+    "task-no-strikethrough",
+    "links",
+    "hide-frontmatter",
+    "Headings"
+  ],
+  "theme": "moonstone",
+  "baseFontSize": 16
+}

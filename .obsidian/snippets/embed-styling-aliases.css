@@ -1,0 +1,13 @@
+.internal-embed[alt="no-header"] .markdown-preview-sizer [data-heading]:first-of-type {
+  display: none;
+}
+/* couldnt figure out what was causing the padding where the link is */
+/* .internal-embed[alt="no-header-no-padding"] .markdown-preview-sizer [data-heading]:first-of-type {
+  display: none;
+} */
+
+.internal-embed[alt="LARGE"] .markdown-preview-sizer strong,
+.internal-embed[alt="LARGE"] .markdown-preview-sizer p,
+.internal-embed[alt="LARGE"] .markdown-preview-sizer ul {
+  font-size: 1.5em;
+}
